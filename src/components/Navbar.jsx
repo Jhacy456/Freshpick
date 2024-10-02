@@ -3,7 +3,7 @@ import logo from '../assets/images/logo3.png'
 
 const Navbar = () => {
     return (
-        <div className='px-28 py-5'> 
+        <div> 
             <nav className="flex items-center bg-black p-4" >
                 <div className='flex'>
                     <img src={pic} alt="Logo" className="h-20 w-20 mr-2  rounded-full" />
