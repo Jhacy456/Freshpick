@@ -1,17 +1,64 @@
-*{
+
+
+
+* {
     padding: 0;
     margin: 0;
 }
 
-.hero{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.808),
-    #000000d8), url(./assets/images/pexels14.jpg);
+.hero {
+    background-image: url(./assets/images/pexels16.jpg);
     height: 120vh;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     width: 100%;
-    display: flex;
     align-items: center;
-    
+    display: flex;
 }
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    padding: 20px;
+  }
+  
+
+  .grid-item {
+    position: relative; 
+    overflow: hidden; 
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; 
+  }
+ 
+  .grid-item:hover img {
+    transform: scale(1.1);
+  }
+  
+  
+  /* .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: black;
+    font-size: 34px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+  }
+  
+  .grid-item:hover .overlay {
+    opacity: 1;
+  } */
+  
+
+  
