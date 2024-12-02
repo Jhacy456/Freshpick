@@ -3,13 +3,13 @@ import './App.css'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
-import Shop from './components/shop'
+// import Shop from './components/shop'
 import Products from './components/Products'
 import Team from './components/Team'
 import DeliveryInfo from './components/DeliveryInfo'
 import Promotion from './components/Promotion'
 import BlogPost from './components/BlogPost'
-
+import Shop from "./components/Shop"
 function App() {
 
 
@@ -18,7 +18,8 @@ function App() {
       <div><Navbar /></div>
       <section><Hero /></section>
       <section><Products /></section>
-      <section><Shop /></section>
+      {/* <section><Shop /></section> */}
+      <section><Shop/></section>
       <section><Promotion /></section>
       <section><DeliveryInfo /></section>
       <section>
