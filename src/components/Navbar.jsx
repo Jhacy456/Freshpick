@@ -4,7 +4,7 @@ import logo from '../assets/images/logo4.png'
 const Navbar = () => {
     return (
         <div>
-            <nav className="flex text-center    px-20 shadow fixed">
+            <nav className="flex text-center  w-full  px-20  fixed">
                 <div>
                     {/* <img src={pic} alt="Logo" className="h-20 w-20 mr-2  rounded-full" /> */}
                     <div className='p-7'>
